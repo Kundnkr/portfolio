@@ -26,8 +26,6 @@
 }
 
 body {
-    background: rgb(255,225,201);
-background: linear-gradient(264deg, rgba(255,225,201,1) 0%, rgba(255,255,255,1) 59%);
     line-height: 1.5;
     font-family: 'poppins', sans-serif;
 }
@@ -1089,11 +1087,18 @@ footer .social-links .instagram:hover {
     }
 
     .landing-page-3 .container-3 form input {
-        margin-bottom: 15px;
+        margin-bottom: 0px;
+        margin-top: 27px;
     }
 
     .landing-page-3 .container-3 form textarea {
         height: 120px;
+    }
+    .landing-page-3 .container-3 form .input-box label{
+        position: absolute;
+        transform: translateY(35px) translateX(10px);
+        color: rgb(110, 108, 108);
+        pointer-events: none;
     }
 }
 
