@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="icon"  href="./image/kundan.jpg" />
+    <link rel="icon" href="./image/kundan.jpg" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -100,48 +100,87 @@
             </div>
             <section class="cards">
                 <div class="card card-1">
+                    <img loading="eager" src="./img/portfolio.png" alt="">
                     <div class="card-disc">
                         <h1>Portfolio</h1>
-                        <div>
-                            <a href="https://github.com/Kundnkr/portfolio-website" target="_blank"><i
-                                    class="fa-brands fa-github fa-xl"></i></a>
-                            <!-- <i class="fa-solid fa-link fa-lg"></i> -->
+                        <div class="disc-content">
+                            <p>Explore my portfolio website to discover a curated collection of my creative work,
+                                showcasing my skills in design, development, and more.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/Kundnkr/portfolio-website" target="_blank">Github<i
+                                        class="fa-brands fa-github"></i></a>
+                                <a href="https://kundnkr.netlify.app/" target="_blank">Live<i
+                                        class="fa-solid fa-link"></i></a>
+                            </div>
+
+
                         </div>
                     </div>
-                    <img loading="eager" src="./img/portfolio.png" alt="">
                 </div>
                 <div class="card card-2">
+                    <img loading="eager" src="./img/contactList.png" alt="">
                     <div class="card-disc">
-                        <h1>Address Book</h1>
-                        <div>
-                            <a href="https://github.com/Kundnkr/address-book-manager" target="_blank"><i
-                                    class="fa-brands fa-github fa-xl"></i></a>
-                            <!-- <i class="fa-solid fa-link fa-lg"></i> -->
+                        <h1>Address Book Manager</h1>
+                        <div class="disc-content">
+                            <p>This web application is a complete user address book allowing users to add, search, edit,
+                                and delete contacts with profile pictures. The contact data is securely stored in a
+                                database for persistent storage and retrieval.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/Kundnkr/address-book-manager" target="_blank">Github<i
+                                        class="link-icon fa-brands fa-github"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <img loading="eager" src="./img/contactList.png" alt="">
                 </div>
                 <div class="card card-3">
+                    <img loading="eager" src="./img/newsapp.png" alt="">
                     <div class="card-disc">
                         <h1>News App</h1>
-                        <div>
-                            <a href="https://github.com/Kundnkr/newsapp" target="_blank"><i
-                                    class="fa-brands fa-github fa-xl"></i></a>
-                            <!-- <i class="fa-solid fa-link fa-lg"></i> -->
+                        <div class="disc-content">
+                            <p>This is a news app created with React.js, using a free news API. It offers a smooth user
+                                experience to discover news articles in different categories. Users can easily browse
+                                and access news articles based on their preferred categories</p>
+                            <div class="project-links">
+                                <a href="https://github.com/Kundnkr/newsapp" target="_blank">Github<i
+                                        class="link-icon fa-brands fa-github "></i></a>
+                                <a href="https://newsapp-kundnkr.vercel.app/" target="_blank">Live<i
+                                        class="fa-solid fa-link"></i></a>
+                            </div>
+
                         </div>
                     </div>
-                    <img loading="eager" src="./img/newsapp.png" alt="">
                 </div>
                 <div class="card card-4">
+                    <img loading="eager" src="./img/blog.png" alt="">
                     <div class="card-disc">
-                        <h1>Blog</h1>
-                        <div>
-                            <a href="https://github.com/Kundnkr/BlogWithAuth" target="_blank"><i
-                                    class="fa-brands fa-github fa-xl"></i></a>
-                            <!-- <i class="fa-solid fa-link fa-lg"></i> -->
+                        <h1>Blog With Auth</h1>
+                        <div class="disc-content">
+                            <p>This is a blog web application with an admin panel for creating and publishing blog
+                                posts. All data is securely stored in a database, and the app offers a user-friendly
+                                interface for efficient management and organization of blog content</p>
+                            <div class="project-links">
+                                <a href="https://github.com/Kundnkr/BlogWithAuth" target="_blank">Github<i
+                                        class="link-icon fa-brands fa-github"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <img loading="eager" src="./img/blog.png" alt="">
+                </div>
+                <div class="card card-5">
+                    <img loading="eager" src="./img/linkshop.png" alt="">
+                    <div class="card-disc">
+                        <h1>Link Shop</h1>
+                        <div class="disc-content">
+                            <p>LinkShop is a React.js web app that enables users to create a collection of links with
+                                specified destinations. It offers a seamless redirection to respective locations when
+                                users click on the added links</p>
+                            <div class="project-links">
+                                <a href="https://github.com/Kundnkr/link-shop" target="_blank">Github<i
+                                        class="link-icon fa-brands fa-github"></i></a>
+                                <a href="https://link-shop.vercel.app/" target="_blank">Live<i
+                                        class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
@@ -336,12 +375,11 @@
                     <label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
                 </div>
                 <div class="input-box">
-                    <input type="email" id="email"  required>
+                    <input type="email" id="email" required>
                     <label for="email"> <i class="fa-solid fa-envelope"></i> Your Email</label>
                 </div>
                 <div class="input-box">
-                    <textarea name="message" id="message" cols="30" rows="10"
-                         required></textarea>
+                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
                     <label for="message"> <i class="fa-solid fa-message"></i> Enter Message</label>
                 </div>
                 <button>Send Message <i class="fa-solid fa-paper-plane"></i></button>
